@@ -1,0 +1,173 @@
+:root{--bg:#f7f1e8;--card:rgba(255, 250, 242, 0.92);--ink:#2b1d14;--mute:#5a4638;--brown:#5c3219;--accent:#c8501e;--line:#e2d3bf;--g:#3f7d46;--y:#e7b416}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1b130e;--card:rgba(38, 27, 20, 0.92);--ink:#f3e8da;--mute:#c2b19e;--brown:#e2a77a;--accent:#ef7a45;--line:#3b2c21}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+
+/* Background Image na may Soft Tint Overlay para hindi nakakaharang sa teksto */
+body{
+  margin:0;
+  background-color:var(--bg);
+  color:var(--ink);
+  font:17px/1.7 'DM Sans',system-ui,sans-serif;
+  padding-top:env(safe-area-inset-top,0);
+  position:relative;
+  min-height:100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0; 
+  background-image: url('bgbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.35; /* Pinababa ang katangian ng background para malinaw ang teksto */
+  z-index: -1;
+}
+
+h1,h2,h3{
+  font-family:Fraunces,Georgia,serif;
+  line-height:1.15;
+  margin:0 0 .5em;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.8); /* Kaunting liwanag sa paligid ng mga titik */
+}
+@media(prefers-color-scheme:dark){
+  :root:not([data-theme=light]) h1,
+  :root:not([data-theme=light]) h2,
+  :root:not([data-theme=light]) h3 {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+  }
+}
+
+/* Justified text para sa mga talata */
+p, li, .hero p, .song-desc-text {
+  text-align: justify;
+}
+
+/* Sticky Header */
+.top{
+  position:sticky;
+  top:0;
+  z-index:20;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:.8rem 5vw;
+  background:rgba(247, 241, 232, 0.95);
+  backdrop-filter:blur(8px);
+  border-bottom:3px solid var(--brown);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+@media(prefers-color-scheme:dark){
+  :root:not([data-theme=light]) .top{
+    background:rgba(27, 19, 14, 0.95);
+  }
+}
+
+.top::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:3px;background:linear-gradient(90deg,var(--accent) 33%,var(--y) 33% 66%,var(--g) 66%)}
+.brand{font:700 1.15rem Fraunces,serif;letter-spacing:.06em;color:var(--brown);text-decoration:none;display:flex;align-items:center;gap:.5rem}
+.dot{width:14px;height:14px;border-radius:50%;background:var(--brown)}
+#burger{display:none;background:none;border:1px solid var(--line);color:var(--ink);font-size:1.3rem;padding:.2rem .6rem;border-radius:6px}
+nav{display:flex;gap:.2rem}
+nav a,nav .dd>span{display:block;padding:.45rem .8rem;border-radius:8px;color:var(--ink);text-decoration:none;font-weight:500;cursor:pointer;font-size:.95rem}
+nav a:hover,nav .dd>span:hover,nav a.on{background:var(--brown);color:var(--bg)}
+.dd{position:relative}.dd div{display:none;position:absolute;top:100%;left:0;min-width:200px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.4rem;box-shadow:0 10px 30px #0003;backdrop-filter:blur(6px)}
+.dd:hover div,.dd:focus-within div{display:block}
+
+/* Main Container */
+main{
+  max-width:1000px;
+  margin:0 auto;
+  padding:3rem 5vw 4rem;
+  min-height:70vh;
+  animation:in .4s;
+}
+
+@keyframes in{from{opacity:0;transform:translateY(8px)}}
+.hero{padding:1rem 0 2rem}.hero h1{font-size:clamp(2rem,5vw,3.5rem);color:var(--brown)}
+
+/* Sub-header sa Home Page (.hero-subtitle) - PINAKALINAW AT PINAKAMALAKI */
+.hero-subtitle {
+  font-family: Fraunces, Georgia, serif;
+  font-size: 1.85rem;                             /* Pinalaki para madaling basahin */
+  font-weight: 700;                              /* Ginawang bold */
+  color: var(--brown);                           /* Mas madilim na kulay para malinaw ang contrast */
+  line-height: 1.35;
+  margin: 0 auto 1.5rem;
+  max-width: 65ch;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.9); /* Subtle light shadow sa likod ng titik para lumitaw sa background */
+}
+
+@media(prefers-color-scheme:dark){
+  :root:not([data-theme=light]) .hero-subtitle {
+    color: var(--brown);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.hero p{max-width:60ch;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.2rem;margin:2rem 0}
+
+/* Cards na may malinis na translucent background para nababasa nang maayos ang teksto */
+.card{
+  background:var(--card);
+  backdrop-filter:blur(6px);
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:1.2rem;
+  text-decoration:none;
+  color:inherit;
+  display:block;
+  transition:.2s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+a.card:hover{transform:translateY(-4px);border-color:var(--accent)}
+.card h3{font-size:1.25rem;color:var(--brown)}.card small{color:var(--mute)}
+.card-img{width:100%;height:180px;object-fit:cover;border-radius:10px;margin-bottom:.8rem}
+.tag{display:inline-block;background:var(--line);color:var(--ink);border-radius:99px;padding:.1rem .7rem;margin:.15rem .2rem .15rem 0;font-size:.85rem}
+.tag.a{background:var(--accent);color:#fff}
+.credit{border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem;color:var(--mute);font-size:.95rem}
+h2{font-size:2.2rem;color:var(--brown)}p.lead{font-size:1.15rem;max-width:62ch}
+
+/* Lyrics Box Container */
+.lyrics-box{
+  background:var(--card);
+  backdrop-filter:blur(6px);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:1.5rem;
+  font-family:Georgia,serif;
+  line-height:1.8;
+  margin:1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+.song-header-layout{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem}
+.song-desc-text{color:var(--mute);font-size:.95rem;margin:0;max-width:60ch}
+.song-mini-img{width:80px;height:80px;border-radius:8px;object-fit:cover;flex-shrink:0}
+
+.row{display:grid;grid-template-columns:160px 1fr;gap:1rem;padding:.8rem 0;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:none}
+.row b{font-family:Fraunces,serif;color:var(--brown)}
+
+details{
+  background:var(--card);
+  backdrop-filter:blur(6px);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:.8rem 1.1rem;
+  margin:.6rem 0;
+}
+summary{cursor:pointer;font-weight:700}
+ol{padding-left:1.2rem}li{margin:.5rem 0}
+.members{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.av{width:64px;height:64px;border-radius:50%;background:var(--brown);color:var(--bg);display:grid;place-items:center;font:700 1.4rem Fraunces,serif;margin-bottom:.7rem}
+footer{text-align:center;padding:2rem 5vw calc(2rem + env(safe-area-inset-bottom,0));color:var(--mute);font-size:.9rem;border-top:1px solid var(--line)}
+
+@media(max-width:760px){
+  #burger{display:block}
+  nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--bg);padding:.5rem 5vw 1rem;border-bottom:3px solid var(--brown)}
+  nav.open{display:flex}
+  .dd div{display:block;position:static;box-shadow:none;border:0;background:none;padding-left:1rem}
+  .row{grid-template-columns:1fr}
+}
