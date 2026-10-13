@@ -64,7 +64,7 @@ Sa Bohol tayo ay magsaya`,
       r: ['Kristiyanismo'],
       f: ['Hedonismo']
     },
-    m: ['Turismo', 'Kalikasan', 'Kultura', 'Pagmamalaki'],
+    m: ['Turismo', 'Pagmamahal sa Kalikasan', 'Pagpapahalaga ng pagkakilanlan', 'Pagmamalaki ng tanawin'],
     mDesc: 'Sa “Byaheng Bohol,” natukoy ang mga mensaheng panlipunang turismo, pagmamahal sa kalikasan, pagpapahalaga ng pagkakilanlan, at pagmamalaki ng tanawin. Makikita sa awitin ang paglalarawan sa Bohol bilang isang lugar na maaaring puntahan, maranasan, at tangkilikin. Kasabay nito, naipakikita ang pagpapahalaga sa kalikasan at kultura ng lugar. Ang positibong paglalarawan sa Bohol ay nagpapahayag din ng pagmamalaki sa sariling lugar at sa mga katangiang maaaring ibahagi sa ibang tao.'
   },
   {
@@ -190,7 +190,7 @@ Ipaglaban ang kapakanan ng taumbayan.`,
       r: ['Kristiyanismo'],
       f: ['Humanismo']
     },
-    m: ['Mabuting pamumuno', 'Paglaban sa korapsyon', 'Paninindigan', 'Kapakanan ng taumbayan'],
+    m: ['Mabuting pamumuno', 'Paglaban sa korapsyon', 'Paninindigan ng isang lider', 'Kapakanan ng taumbayan'],
     mDesc: 'Sa “Ako na Lang,” natukoy ang mga mensaheng panlipunang mabuting pamumuno, paglaban sa korapsyon, paninindigan ng isang lider, at kapakanan ng taumbayan. Makikita sa awitin ang paglalarawan sa mga suliraning may kaugnayan sa pamumuno at korapsyon. Kasabay nito, ipinakikita ang paninindigan ng isang lider na handang humarap sa mga problema at kumilos para sa kapakanan ng mga mamamayan. Sa pamamagitan ng mga mensaheng ito, binibigyang-diin ang pananagutan ng pinuno sa bayan at sa mga taong kaniyang pinamumunuan.'
   },
   {
@@ -235,7 +235,7 @@ Mahalin natin ang mundo`,
       r: ['Budismo'],
       f: ['Marxismo']
     },
-    m: ['Pangangalaga sa kalikasan', 'Pagkakaisa', 'Kahirapan', 'Pananagutan'],
+    m: ['Pangangalaga sa kalikasan', 'Pagkakaisa', 'Kahirapan', 'Pananagutan ng taumbayan'],
     mDesc: 'Sa “Mahalin ang Mundo,” natukoy ang mga mensaheng panlipunang pangangalaga sa kalikasan, pagkakaisa, kahirapan, at pananagutan ng taumbayan. Makikita sa awitin ang mga suliraning may kaugnayan sa pagkasira ng kapaligiran at sa mga epekto nito sa mga tao. Binibigyang-pansin din ang kalagayan ng mga bata at mahihirap na maaaring higit na makaranas ng epekto ng mga suliraning panlipunan at pangkapaligiran. Kasabay nito, ipinahahayag ang panawagan para sa pagkakaisa at pananagutan ng mga tao sa pangangalaga sa mundo.'
   }
 ];
