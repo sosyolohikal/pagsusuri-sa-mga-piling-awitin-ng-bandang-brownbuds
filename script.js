@@ -384,7 +384,7 @@ const pages = {
 
   kongklusyon: () => `
     <h2>Kongklusyon</h2>
-    <p class="lead">Ang mga piling awitin ng bandang Brownbuds ay hindi lamang nagsisilbing anyo ng pagpapahayag at libangan kundi nagsisilbi ring daluyan ng mga pananaw at mensaheng panlipunan na maaaring magbigay ng kamalayan sa mga kalagayan, pagpapahalaga, at suliraning umiiral sa lipunan.</p>`,
+    <p class="lead">Ang mga piling awitin ng bandang Brownbuds ay nagsisilbing anyo ng pagpapahayag at libangan, gayundin ay daluyan ng mga pananaw at mensaheng panlipunan na maaaring magbigay ng kamalayan sa mga kalagayan, pagpapahalaga, at suliraning umiiral sa lipunan.</p>`,
 
   awtor: () => {
     const authors = [
