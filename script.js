@@ -65,7 +65,7 @@ Sa Bohol tayo ay magsaya`,
       f: ['Hedonismo']
     },
     m: ['Turismo', 'Kalikasan', 'Kultura', 'Pagmamalaki'],
-    mDesc: 'Sa “Byaheng Bohol,” natukoy ang mga mensaheng panlipunang turismo, kalikasan, kultura, at pagmamalaki. Makikita sa awitin ang paglalarawan sa Bohol bilang isang lugar na maaaring puntahan, maranasan, at tangkilikin. Kasabay nito, naipakikita ang pagpapahalaga sa kalikasan at kultura ng lugar. Ang positibong paglalarawan sa Bohol ay nagpapahayag din ng pagmamalaki sa sariling lugar at sa mga katangiang maaaring ibahagi sa ibang tao.'
+    mDesc: 'Sa “Byaheng Bohol,” natukoy ang mga mensaheng panlipunang turismo, pagmamahal sa kalikasan, pagpapahalaga ng pagkakilanlan, at pagmamalaki ng tanawin. Makikita sa awitin ang paglalarawan sa Bohol bilang isang lugar na maaaring puntahan, maranasan, at tangkilikin. Kasabay nito, naipakikita ang pagpapahalaga sa kalikasan at kultura ng lugar. Ang positibong paglalarawan sa Bohol ay nagpapahayag din ng pagmamalaki sa sariling lugar at sa mga katangiang maaaring ibahagi sa ibang tao.'
   },
   {
     id: 'baliw',
@@ -191,7 +191,7 @@ Ipaglaban ang kapakanan ng taumbayan.`,
       f: ['Humanismo']
     },
     m: ['Mabuting pamumuno', 'Paglaban sa korapsyon', 'Paninindigan', 'Kapakanan ng taumbayan'],
-    mDesc: 'Sa “Ako na Lang,” natukoy ang mga mensaheng panlipunang mabuting pamumuno, paglaban sa korapsyon, paninindigan, at kapakanan ng taumbayan. Makikita sa awitin ang paglalarawan sa mga suliraning may kaugnayan sa pamumuno at korapsyon. Kasabay nito, ipinakikita ang paninindigan ng isang lider na handang humarap sa mga problema at kumilos para sa kapakanan ng mga mamamayan. Sa pamamagitan ng mga mensaheng ito, binibigyang-diin ang pananagutan ng pinuno sa bayan at sa mga taong kaniyang pinamumunuan.'
+    mDesc: 'Sa “Ako na Lang,” natukoy ang mga mensaheng panlipunang mabuting pamumuno, paglaban sa korapsyon, paninindigan ng isang lider, at kapakanan ng taumbayan. Makikita sa awitin ang paglalarawan sa mga suliraning may kaugnayan sa pamumuno at korapsyon. Kasabay nito, ipinakikita ang paninindigan ng isang lider na handang humarap sa mga problema at kumilos para sa kapakanan ng mga mamamayan. Sa pamamagitan ng mga mensaheng ito, binibigyang-diin ang pananagutan ng pinuno sa bayan at sa mga taong kaniyang pinamumunuan.'
   },
   {
     id: 'mahalin-ang-mundo',
@@ -236,7 +236,7 @@ Mahalin natin ang mundo`,
       f: ['Marxismo']
     },
     m: ['Pangangalaga sa kalikasan', 'Pagkakaisa', 'Kahirapan', 'Pananagutan'],
-    mDesc: 'Sa “Mahalin ang Mundo,” natukoy ang mga mensaheng panlipunang pangangalaga sa kalikasan, pagkakaisa, kahirapan, at pananagutan. Makikita sa awitin ang mga suliraning may kaugnayan sa pagkasira ng kapaligiran at sa mga epekto nito sa mga tao. Binibigyang-pansin din ang kalagayan ng mga bata at mahihirap na maaaring higit na makaranas ng epekto ng mga suliraning panlipunan at pangkapaligiran. Kasabay nito, ipinahahayag ang panawagan para sa pagkakaisa at pananagutan ng mga tao sa pangangalaga sa mundo.'
+    mDesc: 'Sa “Mahalin ang Mundo,” natukoy ang mga mensaheng panlipunang pangangalaga sa kalikasan, pagkakaisa, kahirapan, at pananagutan ng taumbayan. Makikita sa awitin ang mga suliraning may kaugnayan sa pagkasira ng kapaligiran at sa mga epekto nito sa mga tao. Binibigyang-pansin din ang kalagayan ng mga bata at mahihirap na maaaring higit na makaranas ng epekto ng mga suliraning panlipunan at pangkapaligiran. Kasabay nito, ipinahahayag ang panawagan para sa pagkakaisa at pananagutan ng mga tao sa pangangalaga sa mundo.'
   }
 ];
 
@@ -384,7 +384,7 @@ const pages = {
 
   kongklusyon: () => `
     <h2>Kongklusyon</h2>
-    <p class="lead">Ipinakikita sa isinagawang pagsusuri ng limang piling awitin ng bandang Brownbuds na ang mga ito ay naglalaman ng iba’t ibang pananaw sa mundo at mensaheng panlipunan na sumasalamin sa mga karanasan, pagpapahalaga, paniniwala, at kalagayang panlipunan. Sa pamamagitan ng mga aspektong pangkaasalan, ideolohikal, relihiyoso, at pilosopikal, natukoy ang iba’t ibang pananaw na nakapaloob sa bawat awitin, habang ang mga mensaheng panlipunan ay tumalakay sa mga usapin tungkol sa kalikasan, kultura, kalusugan, pagkakaisa, pamumuno, kapayapaan, kahirapan, at pananagutan. Ipinakikita ng mga ito na ang bawat awitin ay naglalahad ng magkakaibang karanasan at pananaw na may kaugnayan sa buhay ng tao at sa lipunang kaniyang ginagalawan. Pinatutunayan ng pag-aaral na ang mga piling awitin ng bandang Brownbuds ay hindi lamang nagsisilbing anyo ng pagpapahayag at libangan kundi nagsisilbi ring daluyan ng mga pananaw at mensaheng panlipunan na maaaring magbigay ng kamalayan sa mga kalagayan, pagpapahalaga, at suliraning umiiral sa lipunan.</p>`,
+    <p class="lead">Ang mga piling awitin ng bandang Brownbuds ay hindi lamang nagsisilbing anyo ng pagpapahayag at libangan kundi nagsisilbi ring daluyan ng mga pananaw at mensaheng panlipunan na maaaring magbigay ng kamalayan sa mga kalagayan, pagpapahalaga, at suliraning umiiral sa lipunan.</p>`,
 
   awtor: () => {
     const authors = [
