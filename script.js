@@ -144,8 +144,8 @@ At isulong sa buong daigdig`,
       r: ['Budismo'],
       f: ['Confucianismo']
     },
-    m: ['Pag-asa sa pagbabago', 'Kapayapaan', 'Pagkakaisa', 'Kinabukasan'],
-    mDesc: 'Sa “Kapit Bisig,” natukoy ang mga mensaheng panlipunang pag-asa sa pagbabago, kapayapaan, pagkakaisa, at kinabukasan. Ipinakikita ng awitin ang panawagan na huwag harapin nang nag-iisa ang mga suliranin at sa halip ay makiisa sa iba. Ang pag-asa sa pagbabago ay iniuugnay sa sama-samang pagkilos, habang ang kapayapaan at pagkakaisa ay inilalahad bilang mahahalagang bahagi ng pagkakaroon ng mas maayos na kalagayan. Binibigyang-diin din ng awitin ang pagkakaroon ng pag-asa para sa kinabukasan.'
+    m: ['Pag-asa sa pagbabago', 'Kapayapaan', 'Pagkakaisa', 'Kinabukasan ng kabataan'],
+    mDesc: 'Sa “Kapit Bisig,” natukoy ang mga mensaheng panlipunang pag-asa sa pagbabago, kapayapaan, pagkakaisa, at kinabukasan ng kabataan. Ipinakikita ng awitin ang panawagan na huwag harapin nang nag-iisa ang mga suliranin at sa halip ay makiisa sa iba. Ang pag-asa sa pagbabago ay iniuugnay sa sama-samang pagkilos, habang ang kapayapaan at pagkakaisa ay inilalahad bilang mahahalagang bahagi ng pagkakaroon ng mas maayos na kalagayan. Binibigyang-diin din ng awitin ang pagkakaroon ng pag-asa para sa kinabukasan.'
   },
   {
     id: 'ako-na-lang',
@@ -361,7 +361,7 @@ const pages = {
 
   mensahe: () => `
     <h2>Mga Mensaheng Panlipunan</h2>
-    <p class="lead">Batay sa pagsusuri, natukoy rin ang iba’t ibang mensaheng panlipunan na nakapaloob sa limang piling awitin ng bandang Brownbuds. Ang mga mensaheng ito ay tumatalakay sa mga usaping may kaugnayan sa turismo, kalikasan, kultura, kalusugan, pagkakaisa, pamumuno, kapakanan ng taumbayan, at pananagutan. Ipinakikita ng mga mensaheng ito ang iba’t ibang karanasan at kalagayang panlipunan na inilalahad sa pamamagitan ng musika.</p>
+    <p class="lead">Batay sa pagsusuri, natukoy rin ang iba’t ibang mensaheng panlipunan na nakapaloob sa limang piling awitin ng bandang Brownbuds. Ang mga mensaheng ito ay tumatalakay sa mga usaping may kaugnayan sa turismo, pagmamahal sa kalikasan, pagpapahalaga ng pagkakilanlan, pagpapanatili ng kalusugan, pagkakaisa, mabuting pamumuno, kapakanan ng taumbayan, at pananagutan ng taumbayan. Ipinakikita ng mga mensaheng ito ang iba’t ibang karanasan at kalagayang panlipunan na inilalahad sa pamamagitan ng musika.</p>
     <div style="display:flex; flex-direction:column; gap:2rem; margin-top:2rem;">
       ${S.map(s => `
         <div class="card" style="padding:1.5rem;">
