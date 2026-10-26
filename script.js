@@ -277,8 +277,8 @@ const pages = {
     <section class="hero" style="text-align: center;">
       <h1>SA BAWAT HIMIG, MARAMING MENSAHE: <br>BANDANG BROWNBUDS, SALAMIN NG LIPUNAN</h1>
       <p class="hero-subtitle">Pagsusuri sa mga Piling Awitin ng Bandang Brownbuds</p>
-      <div style="max-width:68ch; margin:0 auto 2rem; text-align:left;">
-        ${paras(homeText, 'max-width:none; margin:0 0 1rem; color:var(--ink);')}
+      <div class="song-page-text" style="background:var(--card); backdrop-filter:blur(6px); border:1px solid var(--line); border-radius:14px; padding:1.5rem; text-align:left; margin:0 auto 2rem;">
+        ${paras(homeText, 'max-width:none; margin:0 0 1rem; color:var(--ink); text-align:justify;')}
       </div>
     </section>
 
@@ -334,7 +334,7 @@ const pages = {
 
   kongklusyon: () => `
     <h2>Pangwakas</h2>
-    <div style="max-width:68ch;">${paras(conclusionText, 'margin:0 0 1rem;')}</div>`,
+    <div class="song-page-text" style="background:var(--card); backdrop-filter:blur(6px); border:1px solid var(--line); border-radius:14px; padding:1.5rem; text-align:left; margin-top:1.5rem;">${paras(conclusionText, 'margin:0 0 1rem;')}</div>`,
 
   awtor: () => {
     const authors = [
