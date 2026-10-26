@@ -64,8 +64,8 @@ Sa Bohol tayo ay magsaya`,
       r: ['Kristiyanismo'],
       f: ['Hedonismo']
     },
-    m: ['Turismo', 'Pagmamahal sa Kalikasan', 'Pagpapahalaga ng pagkakilanlan', 'Pagmamalaki ng tanawin'],
-    mDesc: 'Sa “Byaheng Bohol,” natukoy ang mga mensaheng panlipunang turismo, pagmamahal sa kalikasan, pagpapahalaga ng pagkakilanlan, at pagmamalaki ng tanawin. Makikita sa awitin ang paglalarawan sa Bohol bilang isang lugar na maaaring puntahan, maranasan, at tangkilikin. Kasabay nito, naipakikita ang pagpapahalaga sa kalikasan at kultura ng lugar. Ang positibong paglalarawan sa Bohol ay nagpapahayag din ng pagmamalaki sa sariling lugar at sa mga katangiang maaaring ibahagi sa ibang tao.'
+    m: ['Turismo', 'Kalikasan', 'Kultura', 'Pagmamalaki'],
+    mDesc: 'Sa “Byaheng Bohol,” natukoy ang mga mensaheng panlipunang turismo, kalikasan, kultura, at pagmamalaki. Makikita sa awitin ang paglalarawan sa Bohol bilang isang lugar na maaaring puntahan, maranasan, at tangkilikin. Kasabay nito, naipakikita ang pagpapahalaga sa kalikasan at kultura ng lugar. Ang positibong paglalarawan sa Bohol ay nagpapahayag din ng pagmamalaki sa sariling lugar at sa mga katangiang maaaring ibahagi sa ibang tao.'
   },
   {
     id: 'baliw',
@@ -144,8 +144,8 @@ At isulong sa buong daigdig`,
       r: ['Budismo'],
       f: ['Confucianismo']
     },
-    m: ['Pag-asa sa pagbabago', 'Kapayapaan', 'Pagkakaisa', 'Kinabukasan ng kabataan'],
-    mDesc: 'Sa “Kapit Bisig,” natukoy ang mga mensaheng panlipunang pag-asa sa pagbabago, kapayapaan, pagkakaisa, at kinabukasan ng kabataan. Ipinakikita ng awitin ang panawagan na huwag harapin nang nag-iisa ang mga suliranin at sa halip ay makiisa sa iba. Ang pag-asa sa pagbabago ay iniuugnay sa sama-samang pagkilos, habang ang kapayapaan at pagkakaisa ay inilalahad bilang mahahalagang bahagi ng pagkakaroon ng mas maayos na kalagayan. Binibigyang-diin din ng awitin ang pagkakaroon ng pag-asa para sa kinabukasan.'
+    m: ['Pag-asa sa pagbabago', 'Kapayapaan', 'Pagkakaisa', 'Kinabukasan'],
+    mDesc: 'Sa “Kapit Bisig,” natukoy ang mga mensaheng panlipunang pag-asa sa pagbabago, kapayapaan, pagkakaisa, at kinabukasan. Ipinakikita ng awitin ang panawagan na huwag harapin nang nag-iisa ang mga suliranin at sa halip ay makiisa sa iba. Ang pag-asa sa pagbabago ay iniuugnay sa sama-samang pagkilos, habang ang kapayapaan at pagkakaisa ay inilalahad bilang mahahalagang bahagi ng pagkakaroon ng mas maayos na kalagayan. Binibigyang-diin din ng awitin ang pagkakaroon ng pag-asa para sa kinabukasan.'
   },
   {
     id: 'ako-na-lang',
@@ -190,8 +190,8 @@ Ipaglaban ang kapakanan ng taumbayan.`,
       r: ['Kristiyanismo'],
       f: ['Humanismo']
     },
-    m: ['Mabuting pamumuno', 'Paglaban sa korapsyon', 'Paninindigan ng isang lider', 'Kapakanan ng taumbayan'],
-    mDesc: 'Sa “Ako na Lang,” natukoy ang mga mensaheng panlipunang mabuting pamumuno, paglaban sa korapsyon, paninindigan ng isang lider, at kapakanan ng taumbayan. Makikita sa awitin ang paglalarawan sa mga suliraning may kaugnayan sa pamumuno at korapsyon. Kasabay nito, ipinakikita ang paninindigan ng isang lider na handang humarap sa mga problema at kumilos para sa kapakanan ng mga mamamayan. Sa pamamagitan ng mga mensaheng ito, binibigyang-diin ang pananagutan ng pinuno sa bayan at sa mga taong kaniyang pinamumunuan.'
+    m: ['Mabuting pamumuno', 'Paglaban sa korapsyon', 'Paninindigan', 'Kapakanan ng taumbayan'],
+    mDesc: 'Sa “Ako na Lang,” natukoy ang mga mensaheng panlipunang mabuting pamumuno, paglaban sa korapsyon, paninindigan, at kapakanan ng taumbayan. Makikita sa awitin ang paglalarawan sa mga suliraning may kaugnayan sa pamumuno at korapsyon. Kasabay nito, ipinakikita ang paninindigan ng isang lider na handang humarap sa mga problema at kumilos para sa kapakanan ng mga mamamayan. Sa pamamagitan ng mga mensaheng ito, binibigyang-diin ang pananagutan ng pinuno sa bayan at sa mga taong kaniyang pinamumunuan.'
   },
   {
     id: 'mahalin-ang-mundo',
@@ -235,8 +235,8 @@ Mahalin natin ang mundo`,
       r: ['Budismo'],
       f: ['Marxismo']
     },
-    m: ['Pangangalaga sa kalikasan', 'Pagkakaisa', 'Kahirapan', 'Pananagutan ng taumbayan'],
-    mDesc: 'Sa “Mahalin ang Mundo,” natukoy ang mga mensaheng panlipunang pangangalaga sa kalikasan, pagkakaisa, kahirapan, at pananagutan ng taumbayan. Makikita sa awitin ang mga suliraning may kaugnayan sa pagkasira ng kapaligiran at sa mga epekto nito sa mga tao. Binibigyang-pansin din ang kalagayan ng mga bata at mahihirap na maaaring higit na makaranas ng epekto ng mga suliraning panlipunan at pangkapaligiran. Kasabay nito, ipinahahayag ang panawagan para sa pagkakaisa at pananagutan ng mga tao sa pangangalaga sa mundo.'
+    m: ['Pangangalaga sa kalikasan', 'Pagkakaisa', 'Kahirapan', 'Pananagutan'],
+    mDesc: 'Sa “Mahalin ang Mundo,” natukoy ang mga mensaheng panlipunang pangangalaga sa kalikasan, pagkakaisa, kahirapan, at pananagutan. Makikita sa awitin ang mga suliraning may kaugnayan sa pagkasira ng kapaligiran at sa mga epekto nito sa mga tao. Binibigyang-pansin din ang kalagayan ng mga bata at mahihirap na maaaring higit na makaranas ng epekto ng mga suliraning panlipunan at pangkapaligiran. Kasabay nito, ipinahahayag ang panawagan para sa pagkakaisa at pananagutan ng mga tao sa pangangalaga sa mundo.'
   }
 ];
 
@@ -252,8 +252,7 @@ const tags = (a, c = '') => a.map(x => `<span class="tag ${c}">${x}</span>`).joi
 const NAV = [
   ['home', 'Pangunahing Pahina'],
   ['liriko', 'Liriko', S.map(s => ['liriko/' + s.id, s.t])],
-  ['pananaw', 'Pananaw sa Mundo', S.map(s => ['pananaw/' + s.id, s.t])],
-  ['mensahe', 'Mga Mensahe'],
+  ...S.map(s => [s.id, s.t]),
   ['kongklusyon', 'Kongklusyon'],
   ['awtor', 'Mga Awtor']
 ];
@@ -328,63 +327,9 @@ const pages = {
       <p class="credit" style="margin-top:2rem;">${pv ? `<a href="#liriko/${pv.id}">← ${pv.t}</a>` : ''} ${pv && nx ? ' · ' : ''} ${nx ? `<a href="#liriko/${nx.id}">${nx.t} →</a>` : ''}</p>`;
   },
 
-  pananaw: p => {
-    const targetSong = S.find(x => x.id === p);
-    const displaySongs = targetSong ? [targetSong] : S;
-
-    return `
-      <h2>Pananaw sa Mundo</h2>
-      <p class="lead">Batay sa isinagawang pagsusuri sa limang piling awitin ng bandang Brownbuds na “Byaheng Bohol,” “Baliw,” “Kapit Bisig,” “Ako na Lang,” at “Mahalin ang Mundo,” natukoy ang iba’t ibang pananaw sa mundo at mensaheng panlipunan na nakapaloob sa mga liriko ng mga ito. Ang mga pananaw sa mundo ay sinuri batay sa apat na aspekto, kabilang ang pangkaasalan, ideolohikal, relihiyoso, at pilosopikal.</p>
-      <div style="display:flex; flex-direction:column; gap:2rem; margin-top:2rem;">
-        ${displaySongs.map(s => `
-          <div class="card" style="padding:1.5rem;">
-            <div class="song-header-layout">
-              <div>
-                <h3 style="font-size:1.6rem; margin-bottom:.3rem;">${s.t}</h3>
-                <p class="song-desc-text">${s.desc}</p>
-              </div>
-              <img src="${s.img}" alt="${s.t}" class="song-mini-img">
-            </div>
-            
-            <div style="display:grid; gap:1rem; margin-top:1rem; border-top:1px solid var(--line); padding-top:1rem;">
-              ${V.map(v => `
-                <div class="row">
-                  <b>${v.t}</b>
-                  <div>${tags(s.p[v.k])}</div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        `).join('')}
-      </div>`;
-  },
-
-  mensahe: () => `
-    <h2>Mga Mensaheng Panlipunan</h2>
-    <p class="lead">Batay sa pagsusuri, natukoy rin ang iba’t ibang mensaheng panlipunan na nakapaloob sa limang piling awitin ng bandang Brownbuds. Ang mga mensaheng ito ay tumatalakay sa mga usaping may kaugnayan sa turismo, pagmamahal sa kalikasan, pagpapahalaga ng pagkakilanlan, pagpapanatili ng kalusugan, pagkakaisa, mabuting pamumuno, kapakanan ng taumbayan, at pananagutan ng taumbayan. Ipinakikita ng mga mensaheng ito ang iba’t ibang karanasan at kalagayang panlipunan na inilalahad sa pamamagitan ng musika.</p>
-    <div style="display:flex; flex-direction:column; gap:2rem; margin-top:2rem;">
-      ${S.map(s => `
-        <div class="card" style="padding:1.5rem;">
-          <div class="song-header-layout">
-            <div>
-              <h3 style="font-size:1.6rem; margin-bottom:.5rem;">${s.t}</h3>
-              <p class="song-desc-text" style="line-height:1.7;">${s.mDesc}</p>
-            </div>
-            <img src="${s.img}" alt="${s.t}" class="song-mini-img">
-          </div>
-          <div style="display:grid; gap:1rem; margin-top:1rem; border-top:1px solid var(--line); padding-top:1rem;">
-            <div class="row">
-              <b>Mga Mensahe</b>
-              <div>${tags(s.m)}</div>
-            </div>
-          </div>
-        </div>
-      `).join('')}
-    </div>`,
-
   kongklusyon: () => `
     <h2>Kongklusyon</h2>
-    <p class="lead">Ang mga piling awitin ng bandang Brownbuds ay nagsisilbing anyo ng pagpapahayag at libangan, gayundin ay daluyan ng mga pananaw at mensaheng panlipunan na maaaring magbigay ng kamalayan sa mga kalagayan, pagpapahalaga, at suliraning umiiral sa lipunan.</p>`,
+    <p class="lead">Ipinakikita sa isinagawang pagsusuri ng limang piling awitin ng bandang Brownbuds na ang mga ito ay naglalaman ng iba’t ibang pananaw sa mundo at mensaheng panlipunan na sumasalamin sa mga karanasan, pagpapahalaga, paniniwala, at kalagayang panlipunan. Sa pamamagitan ng mga aspektong pangkaasalan, ideolohikal, relihiyoso, at pilosopikal, natukoy ang iba’t ibang pananaw na nakapaloob sa bawat awitin, habang ang mga mensaheng panlipunan ay tumalakay sa mga usapin tungkol sa kalikasan, kultura, kalusugan, pagkakaisa, pamumuno, kapayapaan, kahirapan, at pananagutan. Ipinakikita ng mga ito na ang bawat awitin ay naglalahad ng magkakaibang karanasan at pananaw na may kaugnayan sa buhay ng tao at sa lipunang kaniyang ginagalawan. Pinatutunayan ng pag-aaral na ang mga piling awitin ng bandang Brownbuds ay hindi lamang nagsisilbing anyo ng pagpapahayag at libangan kundi nagsisilbi ring daluyan ng mga pananaw at mensaheng panlipunan na maaaring magbigay ng kamalayan sa mga kalagayan, pagpapahalaga, at suliraning umiiral sa lipunan.</p>`,
 
   awtor: () => {
     const authors = [
@@ -410,9 +355,21 @@ const pages = {
   }
 };
 
+const songPage = id => {
+  const s = S.find(x => x.id === id);
+  const i = S.indexOf(s), pv = S[i - 1], nx = S[i + 1];
+  return `
+    <h2>${s.t}</h2>
+    <div class="song-page">
+      <p class="song-page-text">${s.desc}</p>
+      <img src="${s.img}" alt="${s.t}" class="song-page-img">
+    </div>
+    <p class="credit">${pv ? `<a href="#${pv.id}">← ${pv.t}</a>` : ''} ${pv && nx ? ' · ' : ''} ${nx ? `<a href="#${nx.id}">${nx.t} →</a>` : ''}</p>`;
+};
+
 function route() {
   const [pg, sub] = (location.hash.slice(1) || 'home').split('/');
-  app.innerHTML = (pages[pg] || pages.home)(sub);
+  app.innerHTML = S.some(x => x.id === pg) ? songPage(pg) : (pages[pg] || pages.home)(sub);
   nav.classList.remove('open');
   document.querySelectorAll('nav a').forEach(l => l.classList.toggle('on', l.dataset.h.split('/')[0] === pg && !l.dataset.h.includes('/')));
   scrollTo(0, 0);
